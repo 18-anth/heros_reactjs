@@ -11,7 +11,7 @@
   position: relative;
   
   height: 100vh;
-  width: 650px;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -22,85 +22,39 @@
 .image_marvel{
   background: url('./img/MARVEL.png')
   center center/cover no-repeat; 
-
   position: relative;
   height: 100vh;
-  width: 680px;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
-  margin-left: 18px;
 }
 
 .dc_a{
-  margin-top: 72%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: rgba(27, 61, 255, 0.521);
-  font-size: 24px;
-  margin-left: 30%;
-  border: none;
-  text-decoration: none;
-  width: 40%;
-  height: 10vh;
-  background: rgba(255, 255, 255, 0.13);
-  display: grid;
-  position: relative;
-  border-radius: 100px;
+
   box-sizing: 1px 1px 1px  rgb(0, 0, 0);
 }
 .dc_a:hover{
-  opacity: 99%;
-  background: rgba(27, 61, 255, 0.521);
-  color: rgb(253, 253, 253);
+  opacity: 70%;
+  transition: 3ms all ease-in-out;
 }
 .marvel_a{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: rgba(255, 44, 44, 0.623);
-  border-radius: 100px;
-  margin-top: 68.5%;
-  margin-left: 30%;
-  border: none;
-  text-decoration: none;
-  width: 40%;
-  height: 10vh;
-  background: rgba(255, 255, 255, 0.13);
-  display: grid;
   position: relative;
 }
 .marvel_a:hover{
-  opacity: 99%;
-  background: rgba(255, 44, 44, 0.623);
-  color: rgb(255, 255, 255);
+  opacity: 70%;
   transition: 3ms all ease-in-out;
 }
 @media screen and (max-width: 960px) {
   .hero-container {
     flex-direction: column;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 50% 0% ;
+
   }
-  .image_dc{
-    height: 100vh;
-    width: auto;
-  }
-  .image_marvel{
-    height: 100vh;
-    width: auto;
-    margin-left: -20px;
-  }
-  .dc_a{
-    margin-top: 100%;
-  }
-  .marvel_a{
-    margin-top: 115%;
-  }
+
 }

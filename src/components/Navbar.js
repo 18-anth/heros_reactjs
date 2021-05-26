@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -59,15 +58,7 @@ function Navbar() {
                 DC
               </Link>
             </li>
-            <li>
-            <Link
-                to='/sign-up'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-               Sign Up
-              </Link>
-            </li>
+           
           </ul>
 
         </div>

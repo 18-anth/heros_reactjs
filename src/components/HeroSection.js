@@ -5,12 +5,18 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <div className="image_dc">
-        <a href="/dc" className="dc_a">DC</a>
-      </div>
-      <div className="image_marvel">
-        <a href="/marvel" className="marvel_a">Marvel</a> 
-      </div>
+      <a href="/dc" className="dc_a">
+        <div className="image_dc">
+        
+        </div>
+      </a>
+      
+      <a href="/marvel" className="marvel_a">
+        <div className="image_marvel">
+        
+        </div>
+      </a> 
+      
       
       
     </div>

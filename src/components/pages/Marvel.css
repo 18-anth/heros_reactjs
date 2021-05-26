@@ -1,8 +1,8 @@
 .contenedor_Marvel{
-    padding: 0;
-    margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250% 250% 40px 60px;
+
 }
 h1{
     justify-content: center;
@@ -10,27 +10,17 @@ h1{
     text-align: center;
 }
 .todo{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: rgba(255, 44, 44, 0.623);
-    border-radius: 100px;
-    margin-top: 127%;
-    margin-left: 25%;
     border: none;
     text-decoration: none;
     width: 50%;
     height: 5vh;
     background: rgba(255, 255, 255, 0.13);
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
     position: relative;
 }
 .todo:hover{
-    opacity: 99%;
-    background: rgba(255, 44, 44, 0.623);
-    color: rgb(255, 255, 255);
-    transition: 3ms all ease-in-out;
+    opacity: 80%;
 }
 .images_captain{
     margin-top: 20px;
@@ -164,9 +154,10 @@ h1{
 }
 @media screen and (max-width: 960px) {
     .contenedor_Marvel{
-        padding: 0;
-        margin: 0px 70px;
+        margin: 0 70px;
+        justify-content: center;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 150% 150% 150% 150% 150% 150% 150% 150% 150% 0px 0px;
     }
 }

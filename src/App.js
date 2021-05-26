@@ -4,7 +4,6 @@ import Home from './components/pages/Home';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Marvel from './components/pages/Marvel';
-import SignUp from './components/pages/SignUp';
 import DC from './components/pages/DC';
 import cyclops from './components/Heros_of_Marvel/cyclops';
 import captain from './components/Heros_of_Marvel/captain';
@@ -41,7 +40,7 @@ return (
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/marvel' component={Marvel} />
-          <Route path='/sign-up' component={SignUp} />
+          
           <Route path='/dc' component={DC} />
           <Route path='/cyclops' component={cyclops} />
           <Route path='/captain' component={captain} />

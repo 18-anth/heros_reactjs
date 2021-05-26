@@ -1,0 +1,198 @@
+.contenedor_DC{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textField{
+    margin-top: 1px;
+    margin-left: 50%;
+    font-size: 22px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px 1px 1px 1px rgb(253, 253, 253);
+    padding: 8px;
+    width: 20%;
+    border-radius: 100px;
+    background: #111;
+}
+  i{
+    position: relative;
+    margin-left: -35px;
+    color: rgb(247, 245, 245);
+  }
+  i:hover{
+    color: rgba(255, 255, 255, 0.438);
+    opacity: 80%;
+  }
+.images_arrow{
+    margin-top: 20px;
+    background: url('../heroes/dc-arrow.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.todo_dc{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: rgba(27, 61, 255, 0.521);
+    border-radius: 100px;
+    margin-top: 127%;
+    margin-left: 30%;
+    border: none;
+    text-decoration: none;
+    width: 50%;
+    height: 5vh;
+    background: rgba(255, 255, 255, 0.13);
+    display: grid;
+    position: relative;
+}
+.todo_dc:hover{
+    opacity: 99%;
+    background: rgba(27, 61, 255, 0.521);
+    color: rgb(255, 255, 255);
+    transition: 3ms all ease-in-out;
+}
+.images_batman{
+    margin-top: 20px;
+    background: url('../heroes/dc-batman.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_black{
+    margin-top: 20px;
+    background: url('../heroes/dc-black.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_blue{
+    margin-top: 20px;
+    background: url('../heroes/dc-blue.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_flash{
+    margin-top: 20px;
+    background: url('../heroes/dc-flash.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_green{
+    margin-top: 20px;
+    background: url('../heroes/dc-green.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_martian{
+    margin-top: 20px;
+    background: url('../heroes/dc-martian.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_robin{
+    margin-top: 20px;
+    background: url('../heroes/dc-robin.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_superman{
+    margin-top: 20px;
+    background: url('../heroes/dc-superman.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_wonder{
+    margin-top: 20px;
+    background: url('../heroes/dc-wonder.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+@media screen and (max-width: 960px) {
+    .contenedor_DC{
+        padding: 0;
+        margin: 0px 70px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .textField{
+        width: 200px;
+        margin-left: 30%;
+        font-size: 22px;
+    }
+}

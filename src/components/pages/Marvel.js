@@ -75,7 +75,7 @@ function Marvel() {
   return (
     <>
       <div
-        className="Home_active "
+       
         style={{
           justifyContent: "center",
           alignContent: "center",

@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
 import dc_blue from "../heroes/dc_blue.jpg";
+import ReturnButton from "../ReturnButton/ReturnButton";
 
 export default function blue() {
   return (
@@ -119,6 +120,7 @@ export default function blue() {
               </CardContent>
             </Card>
           </Grid>
+          <ReturnButton />
         </Grid>
       </div>
     </>

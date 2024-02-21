@@ -84,9 +84,13 @@ const heroData = [
 function DC() {
   return (
     <>
-      <div>
+      <div
+      >
         <br />
-        <Grid container spacing={1} justifyContent="center" alignItems="center">
+        <Grid container 
+        spacing={1} 
+        justifyContent="center" 
+        alignItems="center">
           {heroData.map((hero, index) => (
             <Grid
               item

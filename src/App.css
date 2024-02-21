@@ -5,10 +5,7 @@
   font-family: 'PT Sans', sans-serif;
   
 }
-
-.pages{
-  background-color: #242424;
-}
+ 
 
 .home,
 .Marvel,
@@ -36,9 +33,7 @@
   color: #fff;
   font-size: 100px;
 }
-.Home_active{
-  background-color: #242424;
-}
+ 
 .heros_container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);

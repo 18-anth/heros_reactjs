@@ -7,6 +7,7 @@ import dc_black from "../heroes/dc_black.jpg"; // Asegúrate de que la ruta sea 
 import "../css/HEROES.css";
 import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
+import ReturnButton from "../ReturnButton/ReturnButton";
 
 export default function Canary() {
   return (
@@ -113,6 +114,7 @@ export default function Canary() {
             </CardContent>
           </Card>
         </Grid>
+        <ReturnButton />
       </Grid>
     </div>
   );

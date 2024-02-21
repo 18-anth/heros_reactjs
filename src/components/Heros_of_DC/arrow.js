@@ -7,6 +7,7 @@ import Grid from "@mui/material/Grid";
 import "../css/HEROES.css";
 import dc_arrow from "../heroes/dc_arrow.jpg";
 import CardMedia from "@mui/material/CardMedia";
+import ReturnButton from "../ReturnButton/ReturnButton";
 
 function arrow() {
   return (
@@ -111,7 +112,9 @@ function arrow() {
             </CardContent>
           </Card>
         </Grid>
+        <ReturnButton />
       </Grid>
+      
     </div>
   );
 }

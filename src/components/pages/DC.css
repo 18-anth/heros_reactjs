@@ -1,0 +1,173 @@
+ i {
+     position: relative;
+     margin-left: -35px;
+     color: rgb(247, 245, 245);
+ }
+
+ i:hover {
+     color: rgba(255, 255, 255, 0.438);
+     opacity: 80%;
+ }
+
+ .css-1xu1mzw-MuiGrid-root>.MuiGrid-item {
+     padding-top: 16px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     align-content: center;
+ }
+
+ .css-1xu1mzw-MuiGrid-root {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     align-content: center;
+ }
+
+ .images_arrow {
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     background: url('../heroes/dc_arrow.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .todo_dc {
+     border: none;
+     text-decoration: none;
+     width: 50%;
+     height: 5vh;
+     background: rgba(255, 255, 255, 0.13);
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     position: relative;
+ }
+
+ .todo_dc:hover {
+     opacity: 80%;
+     transition: 3ms all ease-in-out;
+ }
+
+ .images_batman {
+
+     background: url('../heroes/dc_batman.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_black {
+
+     background: url('../heroes/dc_black.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_blue {
+
+     background: url('../heroes/dc_blue.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_flash {
+
+     background: url('../heroes/dc_flash.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_green {
+
+     background: url('../heroes/dc_green.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_martian {
+
+     background: url('../heroes/dc_martian.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_robin {
+
+     background: url('../heroes/dc_robin.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_superman {
+
+     background: url('../heroes/dc_superman.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }
+
+ .images_wonder {
+
+     background: url('../heroes/dc_wonder.jpg') center center/cover no-repeat;
+     height: 100vh;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+
+ }

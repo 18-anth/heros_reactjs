@@ -1,0 +1,62 @@
+.hero-container {
+ 
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  height: 130vh;
+}
+
+.image_dc {
+  background: url('./img/DC.png') center center/cover no-repeat;
+  position: relative;
+
+  height: 100vh;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.image_marvel {
+  background: url('./img/MARVEL.png') center center/cover no-repeat;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.dc_a {
+
+  box-sizing: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.dc_a:hover {
+  opacity: 70%;
+  transition: 3ms all ease-in-out;
+}
+
+.marvel_a {
+  position: relative;
+}
+
+.marvel_a:hover {
+  opacity: 70%;
+  transition: 3ms all ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container {
+    flex-direction: column;
+    object-fit: contain;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 50% 0%;
+
+  }
+
+}

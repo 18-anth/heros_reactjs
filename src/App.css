@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pages{
+  background-color: #242424;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home,
+.Marvel,
+.dc{
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.Marvel {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dc {
+ 
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.Home_active{
+  background-color: #242424;
+}
+.heros_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+
+}
+.heros_container div{
+  border-radius: 20px;
+}
+.heros_container div h1{
+font-family: 'Times New Roman', Times, serif;
+}
+.heros_container div p{
+  margin-top: 15px;
+  color: #242424b7;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+*{
+	scrollbar-width: rhin;
+	scrollbar-color: hsla(0, 0%, 60.8%, 0.5) transparent;
   }
-  to {
-    transform: rotate(360deg);
+  ::-webkit-scrollbar {
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+	background-color: rgb(253, 34, 34);
+	border-radius: 20px;
+	border: transparent;
+  }
+  .selected {
+	background: rgba(255, 44, 44, 0.733);
+  }
+  .active-library {
+	transform: translateX(0);
+	opacity: 1;
+  }
+@media screen and (max-width: 960px) {
+  .heros_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  iframe{
+    width: auto;
+    height: auto;
   }
 }

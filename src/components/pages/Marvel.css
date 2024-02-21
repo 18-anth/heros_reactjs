@@ -1,0 +1,163 @@
+.contenedor_Marvel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250% 250% 40px 60px;
+
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.todo{
+    border: none;
+    text-decoration: none;
+    width: 50%;
+    height: 5vh;
+    background: rgba(255, 255, 255, 0.13);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+}
+.todo:hover{
+    opacity: 80%;
+}
+.images_captain{
+    margin-top: 20px;
+    background: url('../heroes/marvel_captain.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_cyclops{
+    margin-top: 20px;
+    background: url('../heroes/marvel_cyclops.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_daredevil{
+    margin-top: 20px;
+    background: url('../heroes/marvel_daredevil.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_hawkeye{
+    margin-top: 20px;
+    background: url('../heroes/marvel_hawkeye.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_hulk{
+    margin-top: 20px;
+    background: url('../heroes/marvel_hulk.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_iron{
+    margin-top: 20px;
+    background: url('../heroes/marvel_iron.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_silver{
+    margin-top: 20px;
+    background: url('../heroes/marvel_silver.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_spider{
+    margin-top: 20px;
+    background: url('../heroes/marvel_spider.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_thor{ 
+    margin-top: 20px;
+    background: url('../heroes/marvel_thor.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+.images_wolverine{
+    margin-top: 20px;
+    background: url('../heroes/marvel_wolverine.jpg')
+    center center/cover no-repeat; 
+    height: 100vh;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-left: 20px;
+}
+@media screen and (max-width: 960px) {
+    .contenedor_Marvel{
+        margin: 0 70px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 150% 150% 150% 150% 150% 150% 150% 150% 150% 0px 0px;
+    }
+}

@@ -9,101 +9,99 @@ import Grid from "@mui/material/Grid";
 import "./Marvel.css";
 import { Link } from "react-router-dom";
 
+const heroesData_Marvel = [
+  {
+    name: "Captain",
+    className: "images_captain",
+    description: "See More",
+    href: "/captain",
+  },
+  {
+    name: "Cyclops",
+    className: "images_cyclops",
+    description: "See More",
+    href: "/cyclops",
+  },
+  {
+    name: "Daredevil",
+    className: "images_daredevil",
+    description: "See More",
+    href: "/daredevil",
+  },
+  {
+    name: "Hawkeye",
+    className: "images_hawkeye",
+    description: "See More",
+    href: "/hawkeye",
+  },
+  {
+    name: "Hulk",
+    className: "images_hulk",
+    description: "See More",
+    href: "/hulk",
+  },
+  {
+    name: "Iron",
+    className: "images_iron",
+    description: "See More",
+    href: "/iron",
+  },
+  {
+    name: "Silver",
+    className: "images_silver",
+    description: "See More",
+    href: "/silver",
+  },
+  {
+    name: "Spider",
+    className: "images_spider",
+    description: "See More",
+    href: "/spider",
+  },
+  {
+    name: "Thor",
+    className: "images_thor",
+    description: "See More",
+    href: "/thor",
+  },
+  {
+    name: "Wolverine",
+    className: "images_wolverine",
+    description: "See More",
+    href: "/wolverine",
+  },
+];
+
 function Marvel() {
-  const heroesData_Marvel = [
-    {
-      name: "Captain",
-      className: "images_captain",
-      description: "See More",
-      href: "/captain",
-    },
-    {
-      name: "Cyclops",
-      className: "images_cyclops",
-      description: "See More",
-      href: "/cyclops",
-    },
-    {
-      name: "Daredevil",
-      className: "images_daredevil",
-      description: "See More",
-      href: "/daredevil",
-    },
-    {
-      name: "Hawkeye",
-      className: "images_hawkeye",
-      description: "See More",
-      href: "/hawkeye",
-    },
-    {
-      name: "Hulk",
-      className: "images_hulk",
-      description: "See More",
-      href: "/hulk",
-    },
-    {
-      name: "Iron",
-      className: "images_iron",
-      description: "See More",
-      href: "/iron",
-    },
-    {
-      name: "Silver",
-      className: "images_silver",
-      description: "See More",
-      href: "/silver",
-    },
-    {
-      name: "Spider",
-      className: "images_spider",
-      description: "See More",
-      href: "/spider",
-    },
-    {
-      name: "Thor",
-      className: "images_thor",
-      description: "See More",
-      href: "/thor",
-    },
-    {
-      name: "Wolverine",
-      className: "images_wolverine",
-      description: "See More",
-      href: "/wolverine",
-    },
-  ];
+ 
   return (
     <>
-      <div
-       
-        style={{
-          justifyContent: "center",
-          alignContent: "center",
-          textAlign: "center",
-          alignItems: "center",
-        }}
-      >
+      <div>
         <br />
-        <Grid
-          container
-          spacing={2}
-          justifyContent="center"
-          alignItems="center"
-          alignContent="center"
-        >
+        <Grid container spacing={1} justifyContent="center" alignItems="center">
           {heroesData_Marvel.map((heroesData_Marvel, index) => (
             <Grid
               item
-              key={index}
-              xs={6}
-              md={6}
+              xs={12}
+              md={2}
               lg={3}
+              display="flex"
               justifyContent="center"
-              alignItems="center"
-              alignContent="center"
-              padding="20px"
             >
-              <Card key={index} sx={{ maxWidth: 340, maxHeight: 530 }}>
+              <Card
+                key={index}
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  backdropFilter: "blur(10px)",
+                  backgroundColor: "rgba(255, 255, 255, 0.5)",
+                  borderRadius: "10px",
+                  boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+                  height: "100%",
+                  overflow: "hidden",
+                }}
+              >
                 <Link
                   to={heroesData_Marvel.href}
                   style={{ textDecoration: "none" }}
@@ -127,8 +125,12 @@ function Marvel() {
                     </CardContent>
                     <CardMedia
                       alt={heroesData_Marvel.name}
-                      height="150"
                       className={`${heroesData_Marvel.className}`}
+                      sx={{
+                        Width: "100%",
+                        maxHeight: 530,
+                        objectFit: "contain",
+                      }}
                     />
                     <CardContent>
                       <Typography

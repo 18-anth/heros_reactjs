@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/heros_reactjs/static/css/main.0a2b022a.css",
-    "main.js": "/heros_reactjs/static/js/main.f4b79364.js",
+    "main.js": "/heros_reactjs/static/js/main.19eed343.js",
     "static/js/453.88b92550.chunk.js": "/heros_reactjs/static/js/453.88b92550.chunk.js",
     "static/media/MARVEL.png": "/heros_reactjs/static/media/MARVEL.8ed744c6071353bb3c5c.png",
     "static/media/DC.png": "/heros_reactjs/static/media/DC.919b244873140eff6b21.png",
@@ -27,11 +27,11 @@
     "static/media/dc_robin.jpg": "/heros_reactjs/static/media/dc_robin.ea4afe99ecbc5480b0e3.jpg",
     "index.html": "/heros_reactjs/index.html",
     "main.0a2b022a.css.map": "/heros_reactjs/static/css/main.0a2b022a.css.map",
-    "main.f4b79364.js.map": "/heros_reactjs/static/js/main.f4b79364.js.map",
+    "main.19eed343.js.map": "/heros_reactjs/static/js/main.19eed343.js.map",
     "453.88b92550.chunk.js.map": "/heros_reactjs/static/js/453.88b92550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a2b022a.css",
-    "static/js/main.f4b79364.js"
+    "static/js/main.19eed343.js"
   ]
 }

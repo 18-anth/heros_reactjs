@@ -115,7 +115,7 @@ const App = () => {
           <Route path="/wonder" element={<Wonder />} />
           <Route path="/edit" element={<Edit />} />
         </Routes>
-        <hr />
+ 
         <Footer />
       </Router>
     </>

@@ -8,6 +8,7 @@ import "../css/HEROES.css";
 import dc_superman from "../heroes/dc_superman.jpg";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 
 export default function superman() {
   return (
@@ -118,6 +119,7 @@ export default function superman() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="superman" />
           <ReturnButton />
         </Grid>
       </div>

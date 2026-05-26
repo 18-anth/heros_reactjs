@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import dc_martian from "../heroes/dc_martian.jpg";
 
 export default function martian() {
@@ -116,6 +117,7 @@ export default function martian() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="martian" />
           <ReturnButton />
         </Grid>
       </div>

@@ -7,6 +7,7 @@ import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import dc_wonder from "../heroes/dc_wonder.jpg";
 
 export default function wonder() {
@@ -117,6 +118,7 @@ export default function wonder() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="wonder" />
           <ReturnButton />
         </Grid>
       </div>

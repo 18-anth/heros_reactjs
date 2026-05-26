@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import "../pages/Marvel.css";
 import marvel_hulk from "../heroes/marvel_hulk.jpg";
 
@@ -119,6 +120,7 @@ function hulk() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="hulk" />
           <ReturnButton />
         </Grid>
       </div>

@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import marvel_hawkeye from "../heroes/marvel_hawkeye.jpg";
 
 export default function hawkeye() {
@@ -109,6 +110,7 @@ export default function hawkeye() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="hawkeye" />
           <ReturnButton />
         </Grid>
       </div>

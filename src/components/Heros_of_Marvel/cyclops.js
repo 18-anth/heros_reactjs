@@ -9,6 +9,7 @@ import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import "../pages/Marvel.css";
 import marvel_cyclops from "../heroes/marvel_cyclops.jpg";
+import HeroComments from "../HeroComments";
 
 function cyclops() {
   return (
@@ -115,6 +116,7 @@ function cyclops() {
                   allowfullscreen
                 ></iframe>
               </CardContent>
+              <HeroComments heroId="cyclops" />
             </Card>
           </Grid>
           <ReturnButton />

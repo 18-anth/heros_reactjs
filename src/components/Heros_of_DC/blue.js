@@ -8,6 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
 import dc_blue from "../heroes/dc_blue.jpg";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 
 export default function blue() {
   return (
@@ -120,6 +121,7 @@ export default function blue() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="blue" />
           <ReturnButton />
         </Grid>
       </div>

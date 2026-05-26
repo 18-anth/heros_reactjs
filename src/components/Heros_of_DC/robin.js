@@ -8,6 +8,7 @@ import "../css/HEROES.css";
 import dc_robin from "../heroes/dc_robin.jpg";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 
 export default function robin() {
   return (
@@ -118,6 +119,7 @@ export default function robin() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="robin" />
           <ReturnButton />
         </Grid>
       </div>

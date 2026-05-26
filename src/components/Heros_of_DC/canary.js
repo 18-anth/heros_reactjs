@@ -8,6 +8,7 @@ import "../css/HEROES.css";
 import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 
 export default function Canary() {
   return (
@@ -114,7 +115,8 @@ export default function Canary() {
             </CardContent>
           </Card>
         </Grid>
-        <ReturnButton />
+          <HeroComments heroId="canary" />
+          <ReturnButton />
       </Grid>
     </div>
   );

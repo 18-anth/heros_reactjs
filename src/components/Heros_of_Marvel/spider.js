@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import marvel_spider from "../heroes/marvel_spider.jpg";
 
 export default function spider() {
@@ -88,7 +89,7 @@ export default function spider() {
               }}
             >
               <Typography variant="h5">
-                <h3>My Name is Captain America!</h3>
+                <h3>My Name is El Hombre Araña!</h3>
               </Typography>
               <CardContent>
                 <Typography variant="body1">
@@ -117,6 +118,7 @@ export default function spider() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="spider" />
           <ReturnButton />
         </Grid>
       </div>

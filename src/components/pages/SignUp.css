@@ -21,7 +21,7 @@ h1{
     margin-left: 300px;
 }
 .container_galery{
-    background-color: rgb(241, 236, 236);
+    background: rgb(255, 255, 255);
     width: 50%;
     margin-left: 330px;
     justify-content: center;
@@ -81,7 +81,7 @@ b:hover{
 }
 @media screen and (max-width: 960px) {
     .container_galery{
-        background-color: rgb(241, 236, 236);
+        background: rgb(255, 255, 255);
         width: 90%;
         margin-left: 25px;
     }

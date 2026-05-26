@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import marvel_silver from "../heroes/marvel_silver.jpg";
 
 export default function silver() {
@@ -117,6 +118,7 @@ export default function silver() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="silver" />
           <ReturnButton />
         </Grid>
       </div>

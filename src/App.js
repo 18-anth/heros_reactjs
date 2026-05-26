@@ -4,6 +4,8 @@ import House from "./components/pages/Home";
 import Marvel from "./components/pages/Marvel";
 import DC from "./components/pages/DC";
 import "./components/Navbar.css";
+import Navbar from './components/Navbar';
+import SignUpPage from './components/pages/SignUp';
 import Cyclops from "./components/Heros_of_Marvel/cyclops";
 import Captain from "./components/Heros_of_Marvel/captain";
 import Hulk from "./components/Heros_of_Marvel/hulk";
@@ -57,37 +59,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <nav className="navbar">
-          <div className="navbar-container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <h3 className="title">Heros</h3>
-            </Link>
-            <div className="menu-icon" onClick={handleClick}>
-              {button} <i className={click ? "fas fa-times" : "fas fa-bars"} />
-            </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <li className="nav-item">
-                <Link className="nav-links" onClick={closeMobileMenu} to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-links" onClick={closeMobileMenu} to="/dc">
-                  Dc Comics
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                  to="/marvel"
-                >
-                  Marvel Comics
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <Navbar />
 
         <Routes>
           <Route path="/" exact element={<Home />} />
@@ -113,6 +85,7 @@ const App = () => {
           <Route path="/robin" element={<Robin />} />
           <Route path="/superman" element={<Superman />} />
           <Route path="/wonder" element={<Wonder />} />
+          <Route path="/signup" element={<SignUpPage />} />
           <Route path="/edit" element={<Edit />} />
         </Routes>
  

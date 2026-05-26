@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import marvel_wolverine from "../heroes/marvel_wolverine.jpg";
 
 export default function wolverine() {
@@ -118,6 +119,7 @@ export default function wolverine() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="wolverine" />
           <ReturnButton />
         </Grid>
       </div>

@@ -8,6 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import dc_flash from "../heroes/dc_flash.jpg";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 
 export default function flash() {
   return (
@@ -120,6 +121,7 @@ export default function flash() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="flash" />
           <ReturnButton />
         </Grid>
       </div>

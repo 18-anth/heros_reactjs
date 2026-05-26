@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import dc__green from "../heroes/dc_green.jpg";
 
 export default function linter() {
@@ -118,6 +119,7 @@ export default function linter() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="linter" />
           <ReturnButton />
         </Grid>
       </div>

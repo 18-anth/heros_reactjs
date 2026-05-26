@@ -7,6 +7,7 @@ import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
+import HeroComments from "../HeroComments";
 import marvel_daredevil from "../heroes/marvel_daredevil.jpg";
 
 function daredevil() {
@@ -114,6 +115,7 @@ function daredevil() {
               </CardContent>
             </Card>
           </Grid>
+          <HeroComments heroId="daredevil" />
           <ReturnButton />
         </Grid>
       </div>

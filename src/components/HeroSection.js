@@ -32,7 +32,7 @@ function HeroSection() {
             display="flex"
             justifyContent="center"
           >
-            <Link to="/dc">
+            <Link to="/dc" style={{ textDecoration: "none" }}>
               <Card
                 sx={{
                   display: "flex",

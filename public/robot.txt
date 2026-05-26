@@ -1,0 +1,24 @@
+# robots.txt para Azaktilsa WebPlatform
+# Fecha de última actualización: 2025-08-25
+# Sitio en producción: https://18-anth.github.io/heros_reactjs/
+# Sitemap oficial: https://18-anth.github.io/heros_reactjs/sitemap.xml
+
+User-agent: *
+# Permitir todo el contenido público
+Allow: /
+
+# Bloquear carpetas de desarrollo, configuraciones y metadatos de GitHub Pages
+Disallow: /assets/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /tests/
+Disallow: /docs/
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /CNAME
+
+# Evitar parámetros duplicados (ejemplo común en sitios dinámicos)
+Disallow: /*?*
+
+# Sitemap principal
+Sitemap: https://18-anth.github.io/heros_reactjs/sitemap.xml

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import House from "./components/pages/Home";
 import Marvel from "./components/pages/Marvel";
 import DC from "./components/pages/DC";
@@ -28,6 +28,9 @@ import Superman from "./components/Heros_of_DC/superman";
 import Wonder from "./components/Heros_of_DC/wonder";
 import Footer from "./components/Footer";
 import Edit from "./components/pages/Edit";
+import UploadHero from "./components/Upload/UploadHero";
+import HeroMarvel from "./components/HeroMarvel";
+import HeroDC from "./components/HeroDC";
 
 const Home = () => (
   <div>
@@ -65,6 +68,9 @@ const App = () => {
           <Route path="/" exact element={<Home />} />
           <Route path="/dc" element={<DC />} />
           <Route path="/marvel" element={<Marvel />} />
+          <Route path="/upload" element={<UploadHero />} />
+          <Route path="/HeroMarvel:id" element={<HeroMarvel />} />
+          <Route path="/HeroDC:id" element={<HeroDC />} />
           <Route path="/cyclops" element={<Cyclops />} />
           <Route path="/captain" element={<Captain />} />
           <Route path="/hulk" element={<Hulk />} />
@@ -88,7 +94,7 @@ const App = () => {
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/edit" element={<Edit />} />
         </Routes>
- 
+
         <Footer />
       </Router>
     </>

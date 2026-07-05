@@ -8,7 +8,7 @@ import CardMedia from "@mui/material/CardMedia";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";
-import dc_wonder from "../heroes/dc_wonder.jpg";
+import dc_wonder from "../../assets/heroes/dc_wonder.jpg";
 
 export default function wonder() {
   return (

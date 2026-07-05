@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import "../css/HEROES.css";
-import dc_robin from "../heroes/dc_robin.jpg";
+import dc_robin from "../../assets/heroes/dc_robin.jpg";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";

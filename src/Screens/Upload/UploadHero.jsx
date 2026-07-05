@@ -11,7 +11,7 @@ import {
     Card,
     CardMedia,
 } from "@mui/material";
-import Colors from "../utils/Colors";
+import Colors from "../../utils/Colors";
 
 function UploadHero() {
 

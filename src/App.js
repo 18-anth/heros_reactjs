@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import House from "./components/pages/Home";
-import Marvel from "./components/pages/Marvel";
-import DC from "./components/pages/DC";
+import House from "./Screens/Home/Home";
+import Marvel from "./Screens/Marvel/Marvel";
+import DC from "./Screens/DC/DC";
 import "./components/Navbar.css";
 import Navbar from './components/Navbar';
-import SignUpPage from './components/pages/SignUp';
+import SignUpPage from './Screens/Register/SignUp';
 import Cyclops from "./components/Heros_of_Marvel/cyclops";
 import Captain from "./components/Heros_of_Marvel/captain";
 import Hulk from "./components/Heros_of_Marvel/hulk";
@@ -28,7 +28,7 @@ import Superman from "./components/Heros_of_DC/superman";
 import Wonder from "./components/Heros_of_DC/wonder";
 import Footer from "./components/Footer";
 import Edit from "./components/pages/Edit";
-import UploadHero from "./components/Upload/UploadHero";
+import UploadHero from "./Screens/Upload/UploadHero";
 import HeroMarvel from "./components/HeroMarvel";
 import HeroDC from "./components/HeroDC";
 

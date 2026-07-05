@@ -8,13 +8,13 @@ import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";
-import dc__green from "../heroes/dc_green.jpg";
+import dc__green from "../../assets/heroes/dc_green.jpg";
 
 export default function linter() {
   return (
     <>
       <div
-      
+
         style={{
           padding: "20px",
           justifyContent: "center",

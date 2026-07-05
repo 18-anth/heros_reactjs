@@ -8,8 +8,8 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-import DC from "./img/DC.png";
-import img_MARVEL from "./img/MARVEL.png";
+import DC from "../assets/img/DC.png";
+import img_MARVEL from "../assets/img/MARVEL.png";
 
 function HeroSection() {
   return (

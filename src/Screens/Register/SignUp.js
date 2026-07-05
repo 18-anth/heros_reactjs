@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SignUp.css';
-import AuthForm from '../AuthForm';
+import AuthForm from '../../components/AuthForm';
 import { getCurrentUser } from '../../services/authService';
 
 function SignUp() {

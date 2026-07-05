@@ -15,7 +15,7 @@
 
 .images_captain {
 
-    background: url('../heroes/marvel_captain.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_captain.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -28,7 +28,7 @@
 
 .images_cyclops {
 
-    background: url('../heroes/marvel_cyclops.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_cyclops.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -41,7 +41,7 @@
 
 .images_daredevil {
 
-    background: url('../heroes/marvel_daredevil.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_daredevil.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -54,7 +54,7 @@
 
 .images_hawkeye {
 
-    background: url('../heroes/marvel_hawkeye.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_hawkeye.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -67,7 +67,7 @@
 
 .images_hulk {
 
-    background: url('../heroes/marvel_hulk.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_hulk.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -80,7 +80,7 @@
 
 .images_iron {
 
-    background: url('../heroes/marvel_iron.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_iron.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -93,7 +93,7 @@
 
 .images_silver {
 
-    background: url('../heroes/marvel_silver.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_silver.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -106,7 +106,7 @@
 
 .images_spider {
 
-    background: url('../heroes/marvel_spider.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_spider.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -119,7 +119,7 @@
 
 .images_thor {
 
-    background: url('../heroes/marvel_thor.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_thor.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;
@@ -132,7 +132,7 @@
 
 .images_wolverine {
 
-    background: url('../heroes/marvel_wolverine.jpg') center center/cover no-repeat;
+    background: url('../../assets/heroes/marvel_wolverine.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 300px;
     height: 400px;

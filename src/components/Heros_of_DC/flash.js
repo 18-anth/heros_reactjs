@@ -5,7 +5,7 @@ import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
-import dc_flash from "../heroes/dc_flash.jpg";
+import dc_flash from "../../assets/heroes/dc_flash.jpg";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";

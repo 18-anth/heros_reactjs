@@ -8,7 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";
-import dc_martian from "../heroes/dc_martian.jpg";
+import dc_martian from "../../assets/heroes/dc_martian.jpg";
 
 export default function martian() {
   return (

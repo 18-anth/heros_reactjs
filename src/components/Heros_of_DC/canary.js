@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
-import dc_black from "../heroes/dc_black.jpg"; // Asegúrate de que la ruta sea correcta
+import dc_black from "../../assets/heroes/dc_black.jpg"; // Asegúrate de que la ruta sea correcta
 import "../css/HEROES.css";
 import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";

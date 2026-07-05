@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import "../css/HEROES.css";
-import dc_superman from "../heroes/dc_superman.jpg";
+import dc_superman from "../../assets/heroes/dc_superman.jpg";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";

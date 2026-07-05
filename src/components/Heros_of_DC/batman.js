@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import "../css/HEROES.css";
-import dc_batman from "../heroes/dc_batman.jpg";
+import dc_batman from "../../assets/heroes/dc_batman.jpg";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";
 

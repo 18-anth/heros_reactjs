@@ -73,7 +73,7 @@ const heroesData_Marvel = [
 ];
 
 function Marvel() {
- 
+
   return (
     <>
       <div>

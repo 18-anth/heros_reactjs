@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Marvel.css";
+import "../../Screens/Marvel/Marvel.css";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
@@ -8,7 +8,7 @@ import Grid from "@mui/material/Grid";
 import CardMedia from "@mui/material/CardMedia";
 import ReturnButton from "../ReturnButton/ReturnButton";
 import HeroComments from "../HeroComments";
-import marvel_hawkeye from "../heroes/marvel_hawkeye.jpg";
+import marvel_hawkeye from "../../assets/heroes/marvel_hawkeye.jpg";
 
 export default function hawkeye() {
   return (

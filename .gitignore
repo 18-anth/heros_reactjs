@@ -33,7 +33,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-/rust-engine/target/
+/rust-engine/target
 
 # 🔐 Environment variables - NEVER commit these files with real credentials
 .env

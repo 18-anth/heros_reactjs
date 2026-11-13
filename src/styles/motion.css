@@ -1,0 +1,125 @@
+:root {
+  --motion-duration: 280ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.route-transition {
+  animation: routeEnter 500ms var(--motion-ease) both;
+}
+
+.landing-card {
+  animation: landingCardEnter 700ms var(--motion-ease) both;
+  transition:
+    transform 350ms var(--motion-ease),
+    box-shadow 350ms var(--motion-ease);
+}
+
+.landing-card:hover {
+  transform: translateY(-10px) scale(1.015);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.4);
+}
+
+.landing-card img {
+  transition: transform 650ms var(--motion-ease);
+}
+
+.landing-card:hover img {
+  transform: scale(1.04);
+}
+
+@keyframes landingCardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes routeEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+a,
+button,
+input,
+textarea,
+select,
+.MuiButtonBase-root {
+  transition:
+    color var(--motion-duration) var(--motion-ease),
+    background-color var(--motion-duration) var(--motion-ease),
+    border-color var(--motion-duration) var(--motion-ease),
+    box-shadow var(--motion-duration) var(--motion-ease),
+    transform var(--motion-duration) var(--motion-ease),
+    opacity var(--motion-duration) var(--motion-ease);
+}
+
+button:hover,
+.MuiButtonBase-root:hover {
+  transform: translateY(-2px);
+}
+
+button:active,
+.MuiButtonBase-root:active {
+  transform: translateY(0) scale(0.98);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-transition {
+    animation: none;
+  }
+
+  .landing-card {
+    animation: none;
+    transition: none;
+  }
+
+  .landing-card img {
+    transition: none;
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  .MuiButtonBase-root {
+    transition: none;
+  }
+
+  button:hover,
+  button:active,
+  .MuiButtonBase-root:hover,
+  .MuiButtonBase-root:active,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    transform: none;
+  }
+
+  .landing-card:hover {
+    transform: none;
+  }
+
+  .landing-card:hover img {
+    transform: none;
+  }
+}

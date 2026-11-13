@@ -34,6 +34,7 @@ function HeroSection() {
           >
             <Link to="/dc" style={{ textDecoration: "none" }}>
               <Card
+                className="landing-card"
                 sx={{
                   display: "flex",
                   justifyContent: "center",
@@ -72,6 +73,7 @@ function HeroSection() {
 
                   <CardMedia
                     component="img"
+                    className="landing-card-image"
                     image={DC}
                     alt="DC"
                     sx={{
@@ -94,6 +96,7 @@ function HeroSection() {
           >
             <Link to="/marvel" style={{ textDecoration: "none" }}>
               <Card
+                className="landing-card"
                 sx={{
                   display: "flex",
                   justifyContent: "center",
@@ -131,6 +134,7 @@ function HeroSection() {
 
                   <CardMedia
                     component="img"
+                    className="landing-card-image"
                     alt="MARVEL"
                     image={img_MARVEL}
                     sx={{

@@ -8,6 +8,7 @@ function Marvel() {
       <div>
         <br />
         <HeroCatalog universe="Marvel" />
+        <br />
       </div>
     </>
   );

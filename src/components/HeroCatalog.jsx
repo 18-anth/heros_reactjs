@@ -45,7 +45,7 @@ export default function HeroCatalog({ universe }) {
           item
           key={hero.id}
           xs={12}
-          md={2}
+          md={4}
           lg={3}
           display="flex"
           justifyContent="center"
@@ -55,6 +55,8 @@ export default function HeroCatalog({ universe }) {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              width: "100%",
+              maxWidth: 300,
               backdropFilter: "blur(10px)",
               backgroundColor: "rgba(255, 255, 255, 0.5)",
               borderRadius: "10px",
@@ -63,8 +65,11 @@ export default function HeroCatalog({ universe }) {
               overflow: "hidden",
             }}
           >
-            <Link to={hero.href} style={{ textDecoration: "none" }}>
-              <CardActionArea>
+            <Link
+              to={hero.href}
+              style={{ textDecoration: "none", display: "block", width: "100%" }}
+            >
+              <CardActionArea sx={{ width: "100%" }}>
                 <CardContent>
                   <Typography
                     gutterBottom
@@ -81,7 +86,6 @@ export default function HeroCatalog({ universe }) {
                   className={hero.class_name || hero.className}
                   sx={{
                     width: "100%",
-                    maxHeight: 530,
                     objectFit: "contain",
                   }}
                 />
@@ -103,6 +107,7 @@ export default function HeroCatalog({ universe }) {
               </CardActionArea>
             </Link>
           </Card>
+          
         </Grid>
       ))}
     </Grid>

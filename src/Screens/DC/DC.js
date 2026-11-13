@@ -8,6 +8,7 @@ function DC() {
       <div>
         <br />
         <HeroCatalog universe="DC" />
+        <br />
       </div>
     </>
   );

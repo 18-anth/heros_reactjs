@@ -5,15 +5,165 @@
     "total": 10
   },
   "heroes": [
-    { "id": "marvel-captain", "name": "Captain", "slug": "captain", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_captain.jpg", "className": "images_captain", "description": "See More", "href": "/captain" },
-    { "id": "marvel-cyclops", "name": "Cyclops", "slug": "cyclops", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_cyclops.jpg", "className": "images_cyclops", "description": "See More", "href": "/cyclops" },
-    { "id": "marvel-daredevil", "name": "Daredevil", "slug": "daredevil", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_daredevil.jpg", "className": "images_daredevil", "description": "See More", "href": "/daredevil" },
-    { "id": "marvel-hawkeye", "name": "Hawkeye", "slug": "hawkeye", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_hawkeye.jpg", "className": "images_hawkeye", "description": "See More", "href": "/hawkeye" },
-    { "id": "marvel-hulk", "name": "Hulk", "slug": "hulk", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_hulk.jpg", "className": "images_hulk", "description": "See More", "href": "/hulk" },
-    { "id": "marvel-iron", "name": "Iron", "slug": "iron", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_iron.jpg", "className": "images_iron", "description": "See More", "href": "/iron" },
-    { "id": "marvel-silver", "name": "Silver", "slug": "silver", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_silver.jpg", "className": "images_silver", "description": "See More", "href": "/silver" },
-    { "id": "marvel-spider", "name": "Spider", "slug": "spider", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_spider.jpg", "className": "images_spider", "description": "See More", "href": "/spider" },
-    { "id": "marvel-thor", "name": "Thor", "slug": "thor", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_thor.jpg", "className": "images_thor", "description": "See More", "href": "/thor" },
-    { "id": "marvel-wolverine", "name": "Wolverine", "slug": "wolverine", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_wolverine.jpg", "className": "images_wolverine", "description": "See More", "href": "/wolverine" }
+    {
+      "id": "marvel-captain",
+      "name": "Captain",
+      "slug": "captain",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_captain.jpg",
+      "className": "images_captain",
+      "description": "See More",
+      "href": "/captain",
+      "details": {
+        "title": "My Name is Captain America!",
+        "description": "El Capitán América, cuyo nombre real es Steven \"Steve\" Grant Rogers, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por los historietistas Joe Simon y Jack Kirby, el personaje apareció por primera vez en Captain America Comics #1 (marzo de 1941) de Timely Comics, predecesor de Marvel Comics. Desde que Marvel Comics revivió al personaje en 1964, el Capitán América se ha mantenido en publicación.",
+        "videoUrl": "https://www.youtube.com/embed/7SlILk2WMTI?start=6"
+      }
+    },
+    {
+      "id": "marvel-cyclops",
+      "name": "Cyclops",
+      "slug": "cyclops",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_cyclops.jpg",
+      "className": "images_cyclops",
+      "description": "See More",
+      "href": "/cyclops",
+      "details": {
+        "title": "My Name is Cyclops!",
+        "description": "Cíclope es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics y es miembro fundador de los X-Men, Creado por el escritor Stan Lee y el artista Jack Kirby, el persona fue creado en por Stan Lee y Jack Kirby y muy tempranamente y planeo ser lanzado en el Comic Issue # 256 de Capitan America pero Stan Lee queria darle un mejor uso queriendo añadirlo en un grupo y haciendole lider de los X-Men, Ciclope apareció por primera vez en el cómic The X-Meen de, en la Edad de Plata de los cómics.",
+        "videoUrl": "https://www.youtube.com/embed/R8nWG456o-Q?start=6"
+      }
+    },
+    {
+      "id": "marvel-daredevil",
+      "name": "Daredevil",
+      "slug": "daredevil",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_daredevil.jpg",
+      "className": "images_daredevil",
+      "description": "See More",
+      "href": "/daredevil",
+      "details": {
+        "title": "My Name is Daredevil!",
+        "description": "El personaje apareció por primera vez en Daredevil #1 (abril de 1964) en la Edad de Plata de los cómics. La influencia del escritor y artista Frank Miller en el título a principios de la década de 1980 consolidó al personaje como una parte popular e influyente del Universo Marvel. Daredevil es comúnmente conocido por apodos como \"El hombre sin miedo\" ​y el \"Diablo de la Cocina del Infierno\". ​",
+        "videoUrl": "https://www.youtube.com/embed/n83s6NO1NE0?start=6"
+      }
+    },
+    {
+      "id": "marvel-hawkeye",
+      "name": "Hawkeye",
+      "slug": "hawkeye",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_hawkeye.jpg",
+      "className": "images_hawkeye",
+      "description": "See More",
+      "href": "/hawkeye",
+      "details": {
+        "title": "My Name is Hawkeye!",
+        "description": "Ojo de Halcón (Clinton Francis «Clint» Barton) (en inglés Hawkeye), es un superhéroe de ficción que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor Stan Lee y el artista Don Heck, el personaje apareció por primera vez como un villano en Tales of Suspense # 57 (septiembre de 1964) y más tarde se unió a los Vengadores en The Avengers # 16 (mayo de 1965). Él ha sido un miembro prominente del equipo desde entonces. También ocupó el puesto # 44 en la lista de los 100 mejores héroes de cómics de IGN.1",
+        "videoUrl": "https://www.youtube.com/embed/iklcRY02AhI?start=6"
+      }
+    },
+    {
+      "id": "marvel-hulk",
+      "name": "Hulk",
+      "slug": "hulk",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_hulk.jpg",
+      "className": "images_hulk",
+      "description": "See More",
+      "href": "/hulk",
+      "details": {
+        "title": "My Name is Hulk!",
+        "description": "Hulk es un personaje ficticio, un superhéroe que aparece en los cómics estadounidenses publicados por la editorial Marvel Comics. El personaje fue creado por los escritores Stan Lee y Jack Kirby siendo su primera aparición en The Incredible Hulk #1 publicado en mayo de 1962. En sus apariciones de cómic, el personaje es a la vez Hulk, un ser humanoide enorme de piel verde, corpulento y musculoso que posee una gran fortaleza física, y su alter ego el Dr. Robert Bruce Banner, un físico físicamente débil, socialmente retraído y emocionalmente reservado, las dos personalidades existentes como independientes y con resentimiento de la otra.",
+        "videoUrl": "https://www.youtube.com/embed/2ErnLuJKQA4"
+      }
+    },
+    {
+      "id": "marvel-iron",
+      "name": "Iron",
+      "slug": "iron",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_iron.jpg",
+      "className": "images_iron",
+      "description": "See More",
+      "href": "/iron",
+      "details": {
+        "title": "My Name is Iron Man!",
+        "description": "Hizo su primera aparición en Tales of Suspense #39 (marzo de 1963), y recibió su propio título en Iron Man #1 (mayo de 1968). Anthony Edward Stark, conocido como Tony Stark, un multimillonario magnate empresarial estadounidense, playboy e ingenioso científico, quien sufrió una grave lesión en el pecho durante un secuestro. Cuando sus captores intentan forzarlo a construir un arma de destrucción masiva crea, en cambio, una armadura poderosa para salvar su vida y escapar del cautiverio. Más tarde, Stark desarrolla su traje, agregando armas y otros dispositivos tecnológicos que diseñó a través de su compañía, Industrias Stark.",
+        "videoUrl": "https://www.youtube.com/embed/8ugaeA-nMTc?start=6"
+      }
+    },
+    {
+      "id": "marvel-silver",
+      "name": "Silver",
+      "slug": "silver",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_silver.jpg",
+      "className": "images_silver",
+      "description": "See More",
+      "href": "/silver",
+      "details": {
+        "title": "My Name is Silver!",
+        "description": "Silver Surfer de cómic del Universo Marvel creado por Jack Kirby y Stan Lee. Su primera aparición fue en Los 4 Fantásticos N° 48. El personaje no se encontraba en el guion original enviado por Stan Lee a Jack Kirby para que lo dibujara, pero el dibujante pensó que un personaje de tanta importancia como Galactus debía tener un heraldo que le anunciara y sirviera, por lo que ideó el personaje. En la cual haría su primera aparición en el universo Marvel un personaje tan importante como Mefisto, que en su primera aparición secuestraba a Shalla Bal, el gran amor de Silver Surfer.",
+        "videoUrl": "https://www.youtube.com/embed/gxr_jP-nMWk?start=6"
+      }
+    },
+    {
+      "id": "marvel-spider",
+      "name": "Spider",
+      "slug": "spider",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_spider.jpg",
+      "className": "images_spider",
+      "description": "See More",
+      "href": "/spider",
+      "details": {
+        "title": "My Name is El Hombre Araña!",
+        "description": "Peter Benjamin Parker es un estudiante de la Escuela de Ciencia y Tecnología de Midtown que, después de adquirir sus habilidades a causa de la mordida de una araña radiactiva, eligió combatir el crimen como el Hombre Araña. A pesar de esforzarse por mantener su identidad en secreto de todos, incluida su tía Maybelle, fue encontrado y reclutado por Anthony Stark para unirse a la Guerra Civil de los Vengadores, obteniendo un nuevo traje y tecnología a cambio. Después de ayudar a Stark, Parker conservó su traje para seguir operando como el Hombre Araña.",
+        "videoUrl": "https://www.youtube.com/embed/CapAQclmVnY?start=6"
+      }
+    },
+    {
+      "id": "marvel-thor",
+      "name": "Thor",
+      "slug": "thor",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_thor.jpg",
+      "className": "images_thor",
+      "description": "See More",
+      "href": "/thor",
+      "details": {
+        "title": "My Name is Thor!",
+        "description": "El personaje fue retratado por primera vez en acción en vivo por Eric Allan Kramer en la película de televisión de 1988 The Incredible Hulk Returns. Chris Hemsworth interpreta a Thor Odinson en las películas de Marvel Cinematic Universe: Thor (2011), The Avengers (2012), Thor: The Dark World (2013), Avengers: Age of Ultron (2015), Doctor Strange (2016) en un cameo, Thor: Ragnarok (2017), Avengers: Infinity War (2018) y Avengers: Endgame (2019). Además, se utilizaron imágenes de archivo de Hemsworth como Thor en los episodios \"Pilot \" y \"The Well\" de Marvel's Agents of S.H.I.E.L.D.",
+        "videoUrl": "https://www.youtube.com/embed/JOddp-nlNvQ?start=6"
+      }
+    },
+    {
+      "id": "marvel-wolverine",
+      "name": "Wolverine",
+      "slug": "wolverine",
+      "publisher": "Marvel Comics",
+      "universe": "Marvel",
+      "assetPath": "marvel_wolverine.jpg",
+      "className": "images_wolverine",
+      "description": "See More",
+      "href": "/wolverine",
+      "details": {
+        "title": "My Name is Wolverine!",
+        "description": "Su primera aparición la realizó dentro de las páginas del número 180 del cómic The Incredible Hulk, en octubre de 1974, aunque su presentación formal fue en el número siguiente por descuido del guionista (número 181, noviembre de 1974). Además, hizo frecuentes apariciones como invitado en otros cómics de Marvel. Es un mutante que posee sentidos afinados a los animales, capacidades físicas mejoradas, poderosa capacidad de regeneración conocida como un factor de curación, y tres garras retráctiles en cada mano. Wolverine ha sido representado de diversas formas como miembro de los X-Men, Alpha Flight, Fuerza-X y Los Vengadores.",
+        "videoUrl": "https://www.youtube.com/embed/toLpchTUYk8?start=6"
+      }
+    }
   ]
 }

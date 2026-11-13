@@ -1,6 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "id": "/CV_Anth/",
+  "short_name": "Marvel & DC",
+  "name": "Marvel y DC Comics | Superhéroes y Villanos",
+  "description": "Explora los universos de Marvel y DC Comics. Descubre superhéroes, villanos, biografías, poderes, habilidades e historias.",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": [
+    "entertainment",
+    "books",
+    "education"
+  ],
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +28,9 @@
     }
   ],
   "start_url": ".",
+  "scope": "/CV_Anth/",
   "display": "standalone",
+  "orientation": "any",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "universe": "DC",
+    "version": "1.0.0",
+    "total": 10
+  },
+  "heroes": [
+    { "id": "dc-arrow", "name": "Arrow", "slug": "arrow", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_arrow.jpg", "className": "images_arrow", "description": "See More", "href": "/arrow" },
+    { "id": "dc-batman", "name": "Batman", "slug": "batman", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_batman.jpg", "className": "images_batman", "description": "See More", "href": "/batman" },
+    { "id": "dc-canary", "name": "Canary", "slug": "canary", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_black.jpg", "className": "images_black", "description": "See More", "href": "/canary" },
+    { "id": "dc-blue", "name": "Blue", "slug": "blue", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_blue.jpg", "className": "images_blue", "description": "See More", "href": "/blue" },
+    { "id": "dc-flash", "name": "Flash", "slug": "flash", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_flash.jpg", "className": "images_flash", "description": "See More", "href": "/flash" },
+    { "id": "dc-linter", "name": "Linter", "slug": "linter", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_green.jpg", "className": "images_green", "description": "See More", "href": "/linter" },
+    { "id": "dc-martian", "name": "Martian", "slug": "martian", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_martian.jpg", "className": "images_martian", "description": "See More", "href": "/martian" },
+    { "id": "dc-robin", "name": "Robin", "slug": "robin", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_robin.jpg", "className": "images_robin", "description": "See More", "href": "/robin" },
+    { "id": "dc-superman", "name": "Superman", "slug": "superman", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_superman.jpg", "className": "images_superman", "description": "See More", "href": "/superman" },
+    { "id": "dc-wonder", "name": "Wonder", "slug": "wonder", "publisher": "DC Comics", "universe": "DC", "imageUrl": "../heroes/dc_arrow.jpg", "assetPath": "dc_wonder.jpg", "className": "images_wonder", "description": "See More", "href": "/wonder" }
+  ]
+}

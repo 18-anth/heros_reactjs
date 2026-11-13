@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/heros_reactjs/static/css/main.55eedba1.css",
-    "main.js": "/heros_reactjs/static/js/main.86cc2532.js",
-    "static/js/453.75326630.chunk.js": "/heros_reactjs/static/js/453.75326630.chunk.js",
+    "main.js": "/heros_reactjs/static/js/main.8e136d6b.js",
+    "static/js/537.8457e283.chunk.js": "/heros_reactjs/static/js/537.8457e283.chunk.js",
+    "static/js/453.88b92550.chunk.js": "/heros_reactjs/static/js/453.88b92550.chunk.js",
     "static/media/MARVEL.png": "/heros_reactjs/static/media/MARVEL.8ed744c6071353bb3c5c.png",
     "static/media/DC.png": "/heros_reactjs/static/media/DC.919b244873140eff6b21.png",
     "static/media/dc_wonder.jpg": "/heros_reactjs/static/media/dc_wonder.970ba2d62a4636ff6afb.jpg",
@@ -25,13 +26,15 @@
     "static/media/marvel_cyclops.jpg": "/heros_reactjs/static/media/marvel_cyclops.f144240854b9dec1b9af.jpg",
     "static/media/marvel_hawkeye.jpg": "/heros_reactjs/static/media/marvel_hawkeye.1f78e874c315b926c463.jpg",
     "static/media/dc_robin.jpg": "/heros_reactjs/static/media/dc_robin.ea4afe99ecbc5480b0e3.jpg",
+    "static/media/hero_catalog_engine_bg.wasm": "/heros_reactjs/static/media/hero_catalog_engine_bg.3c9ff1b172a5fb81d9d1.wasm",
     "index.html": "/heros_reactjs/index.html",
     "main.55eedba1.css.map": "/heros_reactjs/static/css/main.55eedba1.css.map",
-    "main.86cc2532.js.map": "/heros_reactjs/static/js/main.86cc2532.js.map",
-    "453.75326630.chunk.js.map": "/heros_reactjs/static/js/453.75326630.chunk.js.map"
+    "main.8e136d6b.js.map": "/heros_reactjs/static/js/main.8e136d6b.js.map",
+    "537.8457e283.chunk.js.map": "/heros_reactjs/static/js/537.8457e283.chunk.js.map",
+    "453.88b92550.chunk.js.map": "/heros_reactjs/static/js/453.88b92550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55eedba1.css",
-    "static/js/main.86cc2532.js"
+    "static/js/main.8e136d6b.js"
   ]
 }

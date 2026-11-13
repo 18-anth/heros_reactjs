@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Catálogo Marvel/DC
+
+Las pantallas `/marvel` y `/dc` cargan sus catálogos desde `public/data/` y los
+procesan en el navegador mediante el motor Rust compilado a WebAssembly en
+[`rust-engine/`](./rust-engine/). React realiza las descargas con `fetch`; el
+motor WASM no realiza solicitudes de red.
+
+Para usar GitHub Raw en producción, copia [`.env.example`](./.env.example) a
+`.env` y configura las variables `REACT_APP_MARVEL_JSON_URL` y
+`REACT_APP_DC_JSON_URL`. CRA requiere el prefijo `REACT_APP_` (no `VITE_`).
+Sin esas variables se usan los JSON incluidos en el build, lo que mantiene el
+desarrollo local funcional.
+
+Para regenerar el paquete WASM:
+
+```sh
+npm run build:wasm
+```
+
+La publicación existente continúa usando `npm run deploy` (`gh-pages -d build`)
+y el `HashRouter`, por lo que las rutas de GitHub Pages no requieren
+configuración adicional del servidor.

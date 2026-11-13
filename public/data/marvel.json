@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "universe": "Marvel",
+    "version": "1.0.0",
+    "total": 10
+  },
+  "heroes": [
+    { "id": "marvel-captain", "name": "Captain", "slug": "captain", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_captain.jpg", "className": "images_captain", "description": "See More", "href": "/captain" },
+    { "id": "marvel-cyclops", "name": "Cyclops", "slug": "cyclops", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_cyclops.jpg", "className": "images_cyclops", "description": "See More", "href": "/cyclops" },
+    { "id": "marvel-daredevil", "name": "Daredevil", "slug": "daredevil", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_daredevil.jpg", "className": "images_daredevil", "description": "See More", "href": "/daredevil" },
+    { "id": "marvel-hawkeye", "name": "Hawkeye", "slug": "hawkeye", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_hawkeye.jpg", "className": "images_hawkeye", "description": "See More", "href": "/hawkeye" },
+    { "id": "marvel-hulk", "name": "Hulk", "slug": "hulk", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_hulk.jpg", "className": "images_hulk", "description": "See More", "href": "/hulk" },
+    { "id": "marvel-iron", "name": "Iron", "slug": "iron", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_iron.jpg", "className": "images_iron", "description": "See More", "href": "/iron" },
+    { "id": "marvel-silver", "name": "Silver", "slug": "silver", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_silver.jpg", "className": "images_silver", "description": "See More", "href": "/silver" },
+    { "id": "marvel-spider", "name": "Spider", "slug": "spider", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_spider.jpg", "className": "images_spider", "description": "See More", "href": "/spider" },
+    { "id": "marvel-thor", "name": "Thor", "slug": "thor", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_thor.jpg", "className": "images_thor", "description": "See More", "href": "/thor" },
+    { "id": "marvel-wolverine", "name": "Wolverine", "slug": "wolverine", "publisher": "Marvel Comics", "universe": "Marvel", "assetPath": "marvel_wolverine.jpg", "className": "images_wolverine", "description": "See More", "href": "/wolverine" }
+  ]
+}

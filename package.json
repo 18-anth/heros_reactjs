@@ -31,6 +31,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build:wasm": "wasm-pack build rust-engine --target web --release --out-dir ../src/wasm",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

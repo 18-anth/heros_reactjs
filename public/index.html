@@ -2,52 +2,90 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
 
-  <!-- SEO Básico -->
-  <title>Comics Marvel y DC | Superhéroes, Historias y Personajes</title>
+  <!-- SEO PRINCIPAL -->
+  <title>Marvel y DC Comics | Catálogo de Superhéroes, Villanos y Poderes</title>
 
   <meta name="description"
-    content="Explora información detallada de superhéroes y villanos de Marvel y DC Comics. Descubre historias, poderes, biografías y mucho más." />
-
-  <meta name="keywords"
-    content="Marvel, DC, Comics, Superheroes, Batman, Superman, Spider-Man, Iron Man, Avengers, Justice League" />
+    content="Descubre el universo de Marvel y DC Comics: explora superhéroes, villanos, biografías, poderes, habilidades, historias y personajes legendarios. Todo sobre tus cómics favoritos en un solo lugar." />
 
   <meta name="author" content="Anthony Córdova" />
 
-  <!-- Responsive -->
+  <meta name="keywords"
+    content="Marvel Comics, DC Comics, superhéroes, superheroes, villanos, personajes Marvel, personajes DC, biografías de superhéroes, poderes, habilidades, Batman, Superman, Spider-Man, Iron Man, Hulk, Thor, Avengers, Vengadores, Justice League, Liga de la Justicia, X-Men, Flash, Wonder Woman, universo Marvel, universo DC, catálogo de cómics" />
+
+  <meta name="language" content="Spanish" />
+  <meta name="content-language" content="es" />
+
+  <!-- RESPONSIVE -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Theme -->
+  <!-- IDENTIDAD VISUAL -->
   <meta name="theme-color" content="#0f172a" />
+  <meta name="color-scheme" content="dark light" />
 
-  <!-- Robots -->
-  <meta name="robots" content="index, follow" />
+  <!-- INDEXACIÓN -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-  <!-- Canonical -->
-  <link rel="canonical" href="https://18-anth.github.io/CV_Anth_/" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large" />
 
-  <!-- Favicon -->
+  <!-- URL CANÓNICA -->
+  <link rel="canonical" href="https://18-anth.github.io/CV_Anth/" />
+
+  <!-- ICONOS -->
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo512.png" />
 
-  <!-- Open Graph -->
+  <!-- OPEN GRAPH / FACEBOOK / WHATSAPP -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Comics Marvel y DC" />
+  <meta property="og:locale" content="es_ES" />
+
+  <meta property="og:site_name" content="Marvel y DC Comics" />
+
+  <meta property="og:title" content="Marvel y DC Comics | Explora el Universo de los Superhéroes" />
+
   <meta property="og:description"
-    content="Información de personajes, historias y universos de Marvel y DC Comics." />
+    content="Explora héroes, villanos, poderes, habilidades, biografías e historias de los universos Marvel y DC Comics." />
+
+  <meta property="og:url" content="https://18-anth.github.io/CV_Anth/" />
+
   <meta property="og:image" content="https://raw.githubusercontent.com/18-anth/CV_Anth/proyecto/assets/img/logo.jpeg" />
-  <meta property="og:url" content="https://18-anth.github.io/CV_Anth_/" />
-  <meta property="og:site_name" content="Comics Marvel y DC" />
 
-  <!-- Twitter -->
+  <meta property="og:image:alt" content="Catálogo de personajes de Marvel y DC Comics" />
+
+  <meta property="og:image:type" content="image/jpeg" />
+
+  <!-- TWITTER / X -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Comics Marvel y DC" />
-  <meta name="twitter:description"
-    content="Descubre héroes y villanos del universo Marvel y DC." />
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/18-anth/CV_Anth/proyecto/assets/img/logo.jpeg" />
 
-  <!-- Manifest -->
+  <meta name="twitter:title" content="Marvel y DC Comics | Superhéroes y Villanos" />
+
+  <meta name="twitter:description"
+    content="Conoce a tus personajes favoritos: descubre sus poderes, habilidades, historias y biografías en los universos Marvel y DC." />
+
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/18-anth/CV_Anth/proyecto/assets/img/logo.jpeg" />
+
+  <meta name="twitter:image:alt" content="Catálogo de superhéroes y villanos de Marvel y DC" />
+
+  <!-- DATOS ESTRUCTURADOS -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Marvel y DC Comics",
+    "url": "https://18-anth.github.io/CV_Anth/",
+    "description": "Catálogo de superhéroes, villanos, poderes, habilidades, biografías e historias de Marvel y DC Comics.",
+    "inLanguage": "es",
+    "author": {
+      "@type": "Person",
+      "name": "Anthony Córdova"
+    }
+  }
+  </script>
+
+  <!-- PWA -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
 </head>
@@ -55,8 +93,13 @@
 <body>
 
   <noscript>
-    Explora personajes de Marvel y DC Comics, incluyendo héroes,
-    villanos, historias y poderes.
+    <h1>Marvel y DC Comics: Superhéroes y Villanos</h1>
+    <p>
+      Explora un catálogo de personajes de Marvel y DC Comics.
+      Descubre sus biografías, poderes, habilidades, historias
+      y universos.
+    </p>
+    <p>Activa JavaScript para utilizar todas las funcionalidades.</p>
   </noscript>
 
   <div id="root"></div>

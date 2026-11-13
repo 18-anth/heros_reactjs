@@ -49,8 +49,8 @@ const App = () => {
           <Route path="/dc" element={<DC />} />
           <Route path="/marvel" element={<Marvel />} />
           <Route path="/upload" element={<UploadHero />} />
-          <Route path="/HeroMarvel:id" element={<HeroMarvel />} />
-          <Route path="/HeroDC:id" element={<HeroDC />} />
+          <Route path="/marvel/:hero" element={<HeroMarvel />} />
+          <Route path="/dc/:hero" element={<HeroDC />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/edit" element={<Edit />} />
         </Routes>

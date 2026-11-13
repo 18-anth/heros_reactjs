@@ -3,6 +3,14 @@ use wasm_bindgen::prelude::*;
 
 #[derive(Clone, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
+pub struct HeroDetails {
+    pub title: String,
+    pub description: String,
+    pub video_url: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
 pub struct Hero {
     pub id: String,
     pub name: String,
@@ -16,6 +24,8 @@ pub struct Hero {
     pub class_name: String,
     pub description: String,
     pub href: String,
+    #[serde(default)]
+    pub details: Option<HeroDetails>,
 }
 
 #[derive(Debug, Deserialize)]

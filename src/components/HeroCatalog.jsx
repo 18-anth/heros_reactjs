@@ -32,7 +32,8 @@ export default function HeroCatalog({ universe }) {
     };
   }, [universe]);
 
-  if (state === "loading") return <p aria-live="polite">Cargando catálogo...</p>;
+  if (state === "loading")
+    return <p aria-live="polite">Cargando catálogo...</p>;
   if (state === "error") {
     return <p role="alert">No se pudo cargar el catálogo: {error.message}</p>;
   }
@@ -40,7 +41,7 @@ export default function HeroCatalog({ universe }) {
 
   return (
     <Grid container spacing={1} justifyContent="center" alignItems="center">
-      {heroes.map((hero) => (
+      {heroes.map((hero, index) => (
         <Grid
           item
           key={hero.id}
@@ -49,6 +50,23 @@ export default function HeroCatalog({ universe }) {
           lg={3}
           display="flex"
           justifyContent="center"
+          sx={{
+            animation: "heroCardEnter 500ms ease both",
+            animationDelay: `${index * 70}ms`,
+            "@keyframes heroCardEnter": {
+              from: {
+                opacity: 0,
+                transform: "translateY(18px) scale(0.98)",
+              },
+              to: {
+                opacity: 1,
+                transform: "translateY(0) scale(1)",
+              },
+            },
+            "@media (prefers-reduced-motion: reduce)": {
+              animation: "none",
+            },
+          }}
         >
           <Card
             sx={{
@@ -58,16 +76,34 @@ export default function HeroCatalog({ universe }) {
               width: "100%",
               maxWidth: 300,
               backdropFilter: "blur(10px)",
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgb(0, 0, 0)",
               borderRadius: "10px",
               boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
               height: "100%",
               overflow: "hidden",
+              transition:
+                "transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease",
+              "&:hover": {
+                transform: "translateY(-8px)",
+                boxShadow: "0 14px 30px rgba(0, 0, 0, 0.35)",
+                backgroundColor: "rgb(18, 18, 18)",
+              },
+              "@media (prefers-reduced-motion: reduce)": {
+                transition: "none",
+                "&:hover": {
+                  transform: "none",
+                },
+              },
             }}
           >
             <Link
-              to={hero.href}
-              style={{ textDecoration: "none", display: "block", width: "100%" }}
+              to={`/${universe.toLowerCase()}/${hero.slug}`}
+              style={{
+                color: "#f4f4f4",
+                textDecoration: "none",
+                display: "block",
+                width: "100%",
+              }}
             >
               <CardActionArea sx={{ width: "100%" }}>
                 <CardContent>
@@ -83,31 +119,25 @@ export default function HeroCatalog({ universe }) {
                 <CardMedia
                   component="div"
                   aria-label={hero.name}
-                  className={hero.class_name || hero.className}
                   sx={{
                     width: "100%",
                     objectFit: "contain",
+                    transition: "transform 500ms ease",
+                    "&:hover": {
+                      transform: "scale(1.03)",
+                    },
+                    "@media (prefers-reduced-motion: reduce)": {
+                      transition: "none",
+                      "&:hover": {
+                        transform: "none",
+                      },
+                    },
                   }}
+                  className={`${hero.class_name || hero.className} hero-media`}
                 />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    style={{
-                      textAlign: "center",
-                      margin: "0 20px",
-                      color: "#3E27BE",
-                      fontWeight: "700",
-                    }}
-                  >
-                    {hero.description}
-                  </Typography>
-                </CardContent>
               </CardActionArea>
             </Link>
           </Card>
-          
         </Grid>
       ))}
     </Grid>

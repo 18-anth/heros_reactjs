@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/heros_reactjs/static/css/main.55eedba1.css",
-    "main.js": "/heros_reactjs/static/js/main.8e136d6b.js",
+    "main.js": "/heros_reactjs/static/js/main.9f29a09a.js",
     "static/js/537.8457e283.chunk.js": "/heros_reactjs/static/js/537.8457e283.chunk.js",
     "static/js/453.88b92550.chunk.js": "/heros_reactjs/static/js/453.88b92550.chunk.js",
     "static/media/MARVEL.png": "/heros_reactjs/static/media/MARVEL.8ed744c6071353bb3c5c.png",
@@ -29,12 +29,12 @@
     "static/media/hero_catalog_engine_bg.wasm": "/heros_reactjs/static/media/hero_catalog_engine_bg.3c9ff1b172a5fb81d9d1.wasm",
     "index.html": "/heros_reactjs/index.html",
     "main.55eedba1.css.map": "/heros_reactjs/static/css/main.55eedba1.css.map",
-    "main.8e136d6b.js.map": "/heros_reactjs/static/js/main.8e136d6b.js.map",
+    "main.9f29a09a.js.map": "/heros_reactjs/static/js/main.9f29a09a.js.map",
     "537.8457e283.chunk.js.map": "/heros_reactjs/static/js/537.8457e283.chunk.js.map",
     "453.88b92550.chunk.js.map": "/heros_reactjs/static/js/453.88b92550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55eedba1.css",
-    "static/js/main.8e136d6b.js"
+    "static/js/main.9f29a09a.js"
   ]
 }

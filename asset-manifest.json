@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/heros_reactjs/static/css/main.b9aacbfa.css",
-    "main.js": "/heros_reactjs/static/js/main.96687eb9.js",
+    "main.css": "/heros_reactjs/static/css/main.b0affd79.css",
+    "main.js": "/heros_reactjs/static/js/main.a03f3a92.js",
     "static/js/537.e6e0ecc4.chunk.js": "/heros_reactjs/static/js/537.e6e0ecc4.chunk.js",
     "static/js/453.88b92550.chunk.js": "/heros_reactjs/static/js/453.88b92550.chunk.js",
     "static/media/MARVEL.png": "/heros_reactjs/static/media/MARVEL.8ed744c6071353bb3c5c.png",
@@ -28,13 +28,13 @@
     "static/media/dc_robin.jpg": "/heros_reactjs/static/media/dc_robin.ea4afe99ecbc5480b0e3.jpg",
     "static/media/hero_catalog_engine_bg.wasm": "/heros_reactjs/static/media/hero_catalog_engine_bg.0b2e81c2c1ec210d7eaa.wasm",
     "index.html": "/heros_reactjs/index.html",
-    "main.b9aacbfa.css.map": "/heros_reactjs/static/css/main.b9aacbfa.css.map",
-    "main.96687eb9.js.map": "/heros_reactjs/static/js/main.96687eb9.js.map",
+    "main.b0affd79.css.map": "/heros_reactjs/static/css/main.b0affd79.css.map",
+    "main.a03f3a92.js.map": "/heros_reactjs/static/js/main.a03f3a92.js.map",
     "537.e6e0ecc4.chunk.js.map": "/heros_reactjs/static/js/537.e6e0ecc4.chunk.js.map",
     "453.88b92550.chunk.js.map": "/heros_reactjs/static/js/453.88b92550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9aacbfa.css",
-    "static/js/main.96687eb9.js"
+    "static/css/main.b0affd79.css",
+    "static/js/main.a03f3a92.js"
   ]
 }
